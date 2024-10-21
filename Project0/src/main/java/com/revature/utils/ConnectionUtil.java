@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 //This Class is where we manage and establish our database connection
-public class ConnectionUtil{
+public class ConnectionUtil {
 
     //This method will return an object of type Connection,
     //...which we'll use to interact with our database
@@ -24,7 +24,7 @@ public class ConnectionUtil{
         //Hardcoded for now... BAD! we can change this to hide them in the Environment Variables
 
         //I'm going to put the credentials in Strings, and use those strings in a method that gets connections
-        String url = "jdbc:postgresql://localhost:5432/postgres?currentSchema=p0demo";
+        String url = "jdbc:postgresql://localhost:5432/postgres?currentSchema=project0";
         String username = "postgres";
         String password = "password";
 

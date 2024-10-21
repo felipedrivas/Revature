@@ -12,8 +12,8 @@ public interface RoleDAOInterface {
     //A method that get Roles by their Id
     Role getRoleById(int id);
 
-    //A method that updates a Role salary
-    int updateRoleSalary(int id, int newSalary);
+    //A method that updates a Role Balance
+    int updateRoleBalance(int id, int newBalance);
 
 
     //a hypothetical method that would return all Roles in the DB

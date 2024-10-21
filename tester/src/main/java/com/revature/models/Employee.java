@@ -1,4 +1,4 @@
 package com.revature.models;
 
-public class Produce {
+public class Employee {
 }

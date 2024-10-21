@@ -1,4 +1,4 @@
 package com.revature.controllers;
 
-public class TypeController {
+public class AuthController {
 }

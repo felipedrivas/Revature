@@ -1,4 +1,4 @@
 package com.revature.DAOs;
 
-public class ProduceDAO {
+public class EmployeeDAO {
 }
